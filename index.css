@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    padding: 50px; 
+    min-height: 100vh;
+    overflow: hidden;
+}  
+
+ .container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.group{
+    
+}
+
+ @media screen and ( max-width:600px) {
+    
+
+    .group {
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     top: 500px;
+     right: 400px;
+     text-align: center;
+     font-size: 1000px;
+    }
+    .container{
+        height: 100vh;
+    }
+ }
+   
+ 
